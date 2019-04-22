@@ -1,0 +1,25 @@
+*,
+*:before,
+*:after,
+*:first-letter,
+p:first-line,
+div:first-line,
+blockquote:first-line,
+li:first-line {
+    background: transparent !important;
+    color: #000 !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+}
+
+header,
+.form-container,
+footer,
+.back-to-top {
+    display: none;
+}
+
+p {
+    widows: 4;
+    orphans: 3;
+}
