@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>About Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" sizes="96x96" href="favicon-96x96.png">
+    <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/nav-style.css">
+</head>
+
+<body>
+    <!-- skip link -->
+    <a href="#main" class="skip">Skip to main</a>
+    <!-- start of header -->
+    <header id="header" class="header">
+        <nav class="navbar">
+            <span class="navbar-toggle" id="js-navbar-toggle">
+                <i id="symbol-toggle" class="fas fa-bars"></i>
+            </span>
+            <a href="#header" class="logo">
+                <div class="logo-container">
+                    <img class="logo" src="images/logo-1913689.svg" alt="Company Logo">
+                    <h1 class="page-title">Web Dev I</h1>
+                </div>
+            </a>
+            <ul class="main-nav" id="js-menu">
+                <li>
+                    <a href="#main" class="nav-links">Main</a>
+                </li>
+                <li>
+                    <a href="#about-me" class="nav-links">About Me</a>
+                </li>
+                <li>
+                    <a href="#pictures" class="nav-links">My Photos</a>
+                </li>
+                <li>
+                    <a href="#story" class="nav-links">A Story</a>
+                </li>
+                <li>
+                    <a href="#contact" class="nav-links">Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end of header -->
+    <!-- start of main content -->
+    <!--    why put tabindex of -1 on skiplink target -  https://axesslab.com/skip-links/ -->
+    <main id="main" tabindex="-1" class="main">
+        <!-- start of bio section -->
+        <section class="hero">
+            <div class="content">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/lk-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/lk-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/lk-small.jpg">
+                    <img class="profile" src="images/lk-xsmall.jpg" alt="This is a picture of me">
+                </picture>
+                <p class="my-name">Lyan Kent</p>
+                <p class="my-location">Branchburg, NJ</p>
+            </div>
+        </section>
+        <section id="about-me" class="about-me">
+            <div class="content">
+                <div class="about-content">
+                    <p class="iama">I want to be...</p>
+                    <p class="my-info">a web developer master!</p>
+                    <p class="iama">My favorite way to work is...</p>
+                    <p class="my-info">late at night with large headphones and lots of coffee.</p>
+                    <p class="iama">In my free time, I like to...</p>
+                    <p class="my-info">run through the park, read sci-fi novels, and redesign my personal site using
+                        whatever new tech I want to learn.</p>
+                </div>
+            </div>
+        </section>
+        <!-- end of bio section -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <!-- start of photo gallery -->
+        <section id="pictures" class="gallery">
+            <h1 class="gallery-title">My Abstract Photo Gallery</h1>
+            <figure class="fig1">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/fickle-1a-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/fickle-1a-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/fickle-1a-small.jpg">
+                    <img src="images/fickle-1a-xsmall.jpg" alt="an abstract photo">
+                </picture>
+                <figcaption>Abstract Photo - Fickle Stream 1</figcaption>
+            </figure>
+            <hr>
+            <figure class="fig2">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/fickle-5-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/fickle-5-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/fickle-5-small.jpg">
+                    <img src="images/fickle-5-xsmall.jpg" alt="an abstract photo">
+                </picture>
+                <figcaption>Abstract Photo - Fickle Stream 5</figcaption>
+            </figure>
+            <hr>
+            <figure class="fig3">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/fickle-6-lrg.jpg">
+                    <source media="(min-width: 960px)" srcset="images/fickle-6-med.jpg">
+                    <source media="(min-width: 640px)" srcset="images/fickle-6-small.jpg">
+                    <img src="images/fickle-6-xsmall.jpg" alt="an abstract photo">
+                </picture>
+                <figcaption>Abstract Photo - Fickle Stream 6</figcaption>
+            </figure>
+        </section>
+        <!-- end of photo gallery -->
+        <div class="back-to-top">
+            <a href="#">Back to Top</a>
+        </div>
+        <hr class="mobile-first">
+        <!-- start of Sherlock Holmes story -->
+        <article id="story" class="story">
+            <h1>Sherlock Holmes</h1>
+            <p>I was very angry, for this was the third demand during the month. 'You shall not have a farthing from
+                me,' I cried, on which he bowed and left the room without another word.</p>
+
+            <p>When he was gone I unlocked my bureau, made sure that my treasure was safe, and locked it again. Then I
+                started to go round the house to see that all was secure--a duty which I usually leave to Mary but which
+                I thought it well to perform myself that night. As I came down the stairs I saw Mary herself at the side
+                window of the hall, which she closed and fastened as I approached.</p>
+
+            <p>'Tell me, dad,' said she, looking, I thought, a little disturbed, 'did you give Lucy, the maid, leave to
+                go out to-night?'</p>
+
+            <p>'Certainly not.'</p>
+
+            <p>'She came in just now by the back door. I have no doubt that she has only been to the side gate to see
+                someone, but I think that it is hardly safe and should be stopped.'</p>
+
+            <p>'You must speak to her in the morning, or I will if you prefer it. Are you sure that everything is
+                fastened?'</p>
+
+            <p>'Quite sure, dad.'</p>
+
+            <p>'Then, good-night.' I kissed her and went up to my bedroom again, where I was soon asleep.</p>
+
+            <p>I am endeavouring to tell you everything, Mr. Holmes, which may have any bearing upon the case, but I beg
+                that you will question me upon any point which I do not make clear."</p>
+
+            <p>On the contrary, your statement is singularly lucid."</p>
+
+            <p>I come to a part of my story now in which I should wish to be particularly so. I am not a very heavy
+                sleeper, and the anxiety in my mind tended, no doubt, to make me even less so than usual. About two in
+                the morning, then, I was awakened by some sound in the house. It had ceased ere I was wide awake, but it
+                had left an impression behind it as though a window had gently closed somewhere. I lay listening with
+                all my ears. Suddenly, to my horror, there was a distinct sound of footsteps moving softly in the next
+                room. I slipped out of bed, all palpitating with fear, and peeped round the corner of my dressing-room
+                door.</p>
+
+            <p>'Arthur!' I screamed, 'you villain! you thief! How dare you touch that coronet?'</p>
+
+            <p>The gas was half up, as I had left it, and my unhappy boy, dressed only in his shirt and trousers, was
+                standing beside the light, holding the coronet in his hands. He appeared to be wrenching at it, or
+                bending it with all his strength. At my cry he dropped it from his grasp and turned as pale as death. I
+                snatched it up and examined it. One of the gold corners, with three of the beryls in it, was missing.
+            </p>
+
+            <p>'You blackguard!' I shouted, beside myself with rage. 'You have destroyed it! You have dishonoured me
+                forever! Where are the jewels which you have stolen?'</p>
+
+            <p>'Stolen!' he cried.</p>
+
+            <p>'Yes, thief!' I roared, shaking him by the shoulder.</p>
+
+            <p>'There are none missing. There cannot be any missing,' said he.</p>
+
+            <p>'There are three missing. And you know where they are. Must I call you a liar as well as a thief? Did I
+                not see you trying to tear off another piece?'</p>
+
+            <p>'You have called me names enough,' said he, 'I will not stand it any longer. I shall not say another word
+                about this business, since you have chosen to insult me. I will leave your house in the morning and make
+                my own way in the world.'</p>
+
+            <p>'You shall leave it in the hands of the police!' I cried half-mad with grief and rage. 'I shall have this
+                matter probed to the bottom.'</p>
+
+            <p>'You shall learn nothing from me,' said he with a passion such as I should not have thought was in his
+                nature. 'If you choose to call the police, let the police find what they can.'</p>
+
+            <p>By this time the whole house was astir, for I had raised my voice in my anger. Mary was the first to rush
+                into my room, and, at the sight of the coronet and of Arthur's face, she read the whole story and, with
+                a scream, fell down senseless on the ground. I sent the house-maid for the police and put the
+                investigation into their hands at once. When the inspector and a constable entered the house, Arthur,
+                who had stood sullenly with his arms folded, asked me whether it was my intention to charge him with
+                theft. I answered that it had ceased to be a private matter, but had become a public one, since the
+                ruined coronet was national property. I was determined that the law should have its way in everything.
+            </p>
+
+            <p>'At least,' said he, 'you will not have me arrested at once. It would be to your advantage as well as
+                mine if I might leave the house for five minutes.'</p>
+
+            <p>'That you may get away, or perhaps that you may conceal what you have stolen,' said I. And then,
+                realising the dreadful position in which I was placed, I implored him to remember that not only my
+                honour but that of one who was far greater than I was at stake; and that he threatened to raise a
+                scandal which would convulse the nation. He might avert it all if he would but tell me what he had done
+                with the three missing stones.</p>
+
+            <p>'You may as well face the matter,' said I; 'you have been caught in the act, and no confession could make
+                your guilt more heinous. If you but make such reparation as is in your power, by telling us where the
+                beryls are, all shall be forgiven and forgotten.'</p>
+
+            <p>'Keep your forgiveness for those who ask for it,' he answered, turning away from me with a sneer. I saw
+                that he was too hardened for any words of mine to influence him. There was but one way for it. I called
+                in the inspector and gave him into custody. A search was made at once not only of his person but of his
+                room and of every portion of the house where he could possibly have concealed the gems; but no trace of
+                them could be found, nor would the wretched boy open his mouth for all our persuasions and our threats.
+                This morning he was removed to a cell, and I, after going through all the police formalities, have
+                hurried round to you to implore you to use your skill in unravelling the matter. The police have openly
+                confessed that they can at present make nothing of it. You may go to any expense which you think
+                necessary. I have already offered a reward of 1000 pounds. My God, what shall I do! I have lost my
+                honour, my gems, and my son in one night. Oh, what shall I do!"</p>
+
+            <p>He put a hand on either side of his head and rocked himself to and fro, droning to himself like a child
+                whose grief has got beyond words.</p>
+
+            <p>Sherlock Holmes sat silent for some few minutes, with his brows knitted and his eyes fixed upon the fire.
+            </p>
+
+            <p>Do you receive much company?" he asked.</p>
+
+            <p>None save my partner with his family and an occasional friend of Arthur's. Sir George Burnwell has been
+                several times lately. No one else, I think."</p>
+
+            <p>Do you go out much in society?"</p>
+        </article>
+        <!-- end of Sherlock Holmes story -->
+    </main>
+    <!-- end of main content -->
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <hr class="mobile-first">
+    <!-- start of contact form -->
+    <section id="contact" class="form-container">
+        <h1>Get in Touch</h1>
+        <br class="mobile-first"><br class="mobile-first">
+        <div>
+            <form>
+                <fieldset>
+                    <legend>&nbsp;&nbsp; F O R M &nbsp;G O E S &nbsp; H E R E&nbsp;&nbsp;</legend>
+                    <br class="mobile-first"><br class="mobile-first">
+                    <p>
+                        &nbsp;L E F T&nbsp;&nbsp;E M P T Y&nbsp;&nbsp;O N&nbsp;&nbsp;P U R P O S E&nbsp;
+                    </p>
+                    <br class="mobile-first"><br class="mobile-first">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <!-- end of contact form -->
+    <!-- start of footer -->
+    <footer>
+        <br class="mobile-first"><br class="mobile-first">
+        <p> &copy; 2019 Lyan Kent</p>
+    </footer>
+    <div class="back-to-top">
+        <a href="#">Back to Top</a>
+    </div>
+    <!-- end of footer -->
+    <br class="mobile-first"><br class="mobile-first">
+    <!-- start of javascript for nav toggle -->
+    <script>
+        let mainNav = document.getElementById('js-menu');
+        let navBarToggle = document.getElementById('js-navbar-toggle');
+        let symbolToggle = document.getElementById('symbol-toggle');
+
+
+        navBarToggle.addEventListener('click', function () {
+            mainNav.classList.toggle('active');
+            if (symbolToggle.classList.contains('fa-bars')) {
+                symbolToggle.classList.remove('fa-bars');
+                symbolToggle.classList.add('fa-times');
+            } else {
+                symbolToggle.classList.remove('fa-times');
+                symbolToggle.classList.add('fa-bars');
+            }
+        });
+    </script>
+    <!-- end of javascript for nav toggle -->
+</body>
+
+</html>
