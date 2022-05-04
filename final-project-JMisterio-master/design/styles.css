@@ -222,18 +222,28 @@ footer {
 
     article {
         grid-template-columns: 1fr 48ch 1fr;
+        
     }
 
     article h1,
     .story-body {
         grid-column: 2/3;
+        
     }
 
     article h1 {
         align-self: center;
         justify-self: center;
+        
+    }
+    article .article-body {
+        grid-column: 2/3;
+        align-self: center;
+        justify-self: center;
+        
     }
 
+    
     /*	form */
 
     .form-container {
